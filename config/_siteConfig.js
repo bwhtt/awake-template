@@ -1,4 +1,4 @@
-/**
+p/**
  * CMS Configuration
  * Alter 'netlify' in the import statment below to one of the following:
  * netlify
@@ -9,13 +9,13 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  siteName: 'Pathway to Leadership',
+  tagline: 'A Blog of Lessons and Resources ',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
-    id: process.env.GOOGLE_ANALYTICS_ID
+    id: process.env.UA-159903554-1
   },
   mainMenu: [
     {
