@@ -1,11 +1,11 @@
 <template>
   <div id="home-page" class="page-wrapper home-page">
-    <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
+    <site-hero :title="Bake" :subtitle="cake" :image="featureImage">
       <button
         class="button is-primary"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
       >
-        Subscribe To Newsletter
+        Testing
       </button>
     </site-hero>
     <main-section theme="one-column">
