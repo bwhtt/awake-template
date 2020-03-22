@@ -1,4 +1,4 @@
-p/**
+/**
  * CMS Configuration
  * Alter 'netlify' in the import statment below to one of the following:
  * netlify
