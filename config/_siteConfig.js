@@ -10,9 +10,9 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   //siteName: 'Pathway to Leadership',
-  tagline: 'A Blog of Lessons and Resources ',
+  //tagline: 'A Blog of Lessons and Resources ',
   featureImage: '/uploads/home-hero.jpg',
-  logo: '/uploads/BWHTT-LOGO.png', // 'logo-component', // or '/logo.svg' for regular image
+  logo: '/bwhtt-logo.png', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
     id: 'UA-159903554-1'
