@@ -1,6 +1,6 @@
 <template>
   <div id="home-page" class="page-wrapper home-page">
-    <site-hero title="Pathway to Leadership" subtitle="A Blog of Lessons and Resources" :image="featureImage">
+    <site-hero title="Journey through Leadership" subtitle="A Blog of Lessons and Resources" :image="featureImage">
       <button
         class="button is-primary"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
