@@ -1,6 +1,6 @@
 <template>
   <div id="home-page" class="page-wrapper home-page">
-    <site-hero title="BWhtt" subtitle="Brian Whittaker" :image="featureImage">
+    <site-hero :title="siteName" :subtitle="tagline" :image="featureImage">
       <button
         class="button is-primary"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
