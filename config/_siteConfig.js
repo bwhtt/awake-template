@@ -9,7 +9,7 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Pathway to Leadership',
+  //siteName: 'Pathway to Leadership',
   tagline: 'A Blog of Lessons and Resources ',
   featureImage: '/uploads/home-hero.jpg',
   logo: '/uploads/BWHTT-LOGO.png', // 'logo-component', // or '/logo.svg' for regular image
