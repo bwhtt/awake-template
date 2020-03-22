@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'Pathway to Leadership',
   tagline: 'A Blog of Lessons and Resources ',
-  featureImage: '/uploads/about-hero.jpg',
+  featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
