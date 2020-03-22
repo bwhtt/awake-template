@@ -1,12 +1,6 @@
 <template>
   <div id="home-page" class="page-wrapper home-page">
-    <site-hero title="Journey through Leadership" subtitle="A Blog of Lessons and Resources" :image="featureImage">
-      <button
-        class="button is-primary"
-        @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
-      >
-        Subscribe To Newsletter
-      </button>
+    <site-hero title="Lessons In Leadership" subtitle="A Blog of Stories and Resources" :image="featureImage">
     </site-hero>
     <main-section theme="one-column">
       <template v-slot:default>
